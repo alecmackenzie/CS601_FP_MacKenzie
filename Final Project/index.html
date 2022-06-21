@@ -50,7 +50,6 @@
         </div>
     </section>
     <hr>
-    <div class="frame">
     <section id="app" class="schoolDegree">
         <h1 id="education">Education</h1>
         <img :src="UWS1" alt="UWS logo" @mouseover="updateSchool(2)" @mouseleave="resetSchool()"/>
@@ -58,7 +57,6 @@
         <img :src="UWS3" alt="UWS logo" @mouseover="updateSchool2(4)" @mouseleave="resetSchool2()"/>
         <img :src="BU1" alt="BU logo" @mouseover="updateSchool3(5)" @mouseleave="resetSchool3()"/>
     </section>
-    </div>
     <hr>
         <section>
             <h1 id="work">Work Experience</h1>
@@ -123,7 +121,18 @@
             Pending
         </h1><br><br>
         <ul class="skillsLangRight">
-            <li>dont know yet</li>
+            <li>Microsoft Office 
+                <span class="stars">&bigstar;&bigstar;&bigstar;&bigstar;&star;</span>
+            </li>
+            <li>Microsoft Excel 
+                <span class="stars">&bigstar;&bigstar;&bigstar;&bigstar;&star;</span>
+            </li>
+            <li>Microsoft PowerPoint 
+                <span class="stars">&bigstar;&bigstar;&bigstar;&bigstar;&star;</span>
+            </li>
+            <li>Visual Studio Code 
+                <span class="stars">&bigstar;&bigstar;&bigstar;&star;&star;</span>
+            </li>
         </ul><br>
         <ul class="skillsLang">
             <li>Python 
@@ -161,7 +170,7 @@
     <h1 id="contact">Contact Me</h1>
     <section>
         <div class="contactForm">
-            <form method="post" name="myemailform" action="formEmail.php">
+            <form method="post" name="myemailform" action="https://formsubmit.co/alec.mackenzie@protonmail.com">
                 <input type="text" id="firstName" placeholder=" ">
                 <label for="firstName">First Name</label><br><br><br>
                 
@@ -174,10 +183,10 @@
                 <textarea id="message" placeholder=" " rows="5" cols="70"></textarea>
                 <label for="message">Message</label><br><br>
 
-                <button type="submit" onclick="alert('Thank you for your message! We will be in touch shortly.')" value="Send Form">Submit</button>
+                <button type="submit" name="submit" onclick="alert('Thank you for your message! We will be in touch shortly.')" value="Send Form">Submit</button>
             </form>
         </div>
-    </section>
+</section>
 <footer>
     <p>Copyright 2022. All Rights Reserved.</p>
 </footer>

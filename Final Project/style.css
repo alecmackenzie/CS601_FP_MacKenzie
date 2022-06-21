@@ -11,7 +11,7 @@
 }
 /* Add animation to nav bar */
 .sidenav {
-    height: 300px;
+    height: 290px;
     width: 130px;
     position: fixed;
     margin-left: 50px;
@@ -229,11 +229,6 @@ a:visited {
     padding-left: 100px;
 }
 
-.frame *{
-    background-color: pink;
-    border-right-color: 200px pink;
-}
-
 .stars{
     color: #B79785;
     font-size: 25px;
@@ -241,10 +236,9 @@ a:visited {
 
 .skills{
     width: 100%;
-    height: 470px;
+    height: 500px;
     margin: 0;
     position: relative;
-    background-color: aquamarine;
 }
 
 .skillsLang li{
@@ -255,10 +249,10 @@ a:visited {
 
 .skillsLangRight{
     float: right;
-    padding-top: 7x;
+    padding-top: 10x;
     font-size: 16px;
     width: 50%;
-    line-height: 20px;
+    line-height: 37px;
 }
 
 .rightSkills{
