@@ -116,9 +116,6 @@
         <h1 id="abilities">Abilities</h1>
         <h1 class="left">
             Skills
-        </h1>
-        <h1 class="rightSkills">
-            Pending
         </h1><br><br>
         <ul class="skillsLangRight">
             <li>Microsoft Office 
@@ -170,23 +167,26 @@
     <h1 id="contact">Contact Me</h1>
     <section>
         <div class="contactForm">
-            <form method="post" name="myemailform" action="https://formsubmit.co/alec.mackenzie@protonmail.com">
-                <input type="text" id="firstName" placeholder=" ">
+            <form id="contactform" enctype="multipart/form-data" action="https://formsubmit.co/alec.mackenzie@protonmail.com" method="POST">
+                <input name="firstName" type="text" id="firstName" placeholder=" " required>
                 <label for="firstName">First Name</label><br><br><br>
                 
-                <input type="text" id="lastName" placeholder=" ">
+                <input name="lastName" type="text" id="lastName" placeholder=" ">
                 <label for="lastName">Last Name</label><br><br><br>
 
-                <input type="email" id="email" placeholder=" ">
+                <input name="email" type="email" id="email" placeholder=" " required>
                 <label for="email">Email</label><br><br><br>
                 
-                <textarea id="message" placeholder=" " rows="5" cols="70"></textarea>
+                <textarea name="message" id="message" placeholder=" " rows="5" cols="70"></textarea>
                 <label for="message">Message</label><br><br>
+
+                <input type="hidden" name="_subject" value="Contact Me Form Sumission">
+                <input type="hidden" name="_autoresponse" value="Thank you for submitting your form...">
 
                 <button type="submit" name="submit" onclick="alert('Thank you for your message! We will be in touch shortly.')" value="Send Form">Submit</button>
             </form>
         </div>
-</section>
+    </section>
 <footer>
     <p>Copyright 2022. All Rights Reserved.</p>
 </footer>

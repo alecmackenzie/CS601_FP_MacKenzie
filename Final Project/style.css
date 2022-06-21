@@ -11,8 +11,8 @@
 }
 /* Add animation to nav bar */
 .sidenav {
-    height: 300px;
-    width: 140px;
+    height: 293px;
+    width: 130px;
     position: fixed;
     margin-left: 50px;
     margin-top: 50px;
@@ -81,9 +81,10 @@ h4{
 }
 
 hr{
-    border-color: #8C8E8D;
-    margin-left: 65px;
-    margin-right: 65px;
+    border: solid 1px #BFAB8E;
+    margin-left: 20%;
+    margin-right: 20%;
+
 }
 .workExp{
     position: relative;
@@ -249,7 +250,7 @@ a:visited {
 
 .skillsLangRight{
     float: right;
-    padding-top: 10x;
+    padding-top: 25px;
     font-size: 16px;
     width: 50%;
     line-height: 37px;
